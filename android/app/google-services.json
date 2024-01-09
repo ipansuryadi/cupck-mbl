@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "120885253396",
+    "project_id": "spboot-kt-fcm",
+    "storage_bucket": "spboot-kt-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120885253396:android:72d26ddbe4098d74c91e01",
+        "android_client_info": {
+          "package_name": "com.example.simplest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuRp9dMFNirPTjdGkRAj1bmUEiU0LSMcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
