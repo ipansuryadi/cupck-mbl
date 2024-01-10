@@ -1,16 +1,9 @@
 # simplest
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- i gitignore firebase_options.dart selevel sama main.dart
+- after you have firebase_options.dart you can run
+- after running in debug mode you will see log with label ipansuryadi blablabla
+- blablabla is registration fcm token
+- copy token
+- minimize the apps, you cant see the message receive when your apps in foreground
+- paste in swagger and submit
+- you will see the message received in the debug log
