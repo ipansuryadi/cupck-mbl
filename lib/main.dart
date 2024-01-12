@@ -20,6 +20,16 @@ void main() async {
 
   await FirebaseMessaging.instance.subscribeToTopic("ngetest");
 
+  FirebaseMessaging.onMessage.listen((message) {
+    if (kDebugMode) {
+      // ignore: prefer_interpolation_to_compose_strings
+      print("data nya ini : " + message.data['data']);
+      // ignore: prefer_interpolation_to_compose_strings
+      print("type nya ini : " + message.data['type']);
+      print("type ini string bukan ya?");
+      print(message.data['type'] == "NOTIFICATION_TYPE");
+    }
+  });
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 }
 
